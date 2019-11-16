@@ -1,0 +1,12 @@
+x = 100
+y = 100
+
+while x<=1000:
+    while y<=1000:
+        ans = x*y
+        y+=1
+        if (ans%11)==0:
+            if ans> 900000:
+                print(ans)
+    y=100
+    x+=1

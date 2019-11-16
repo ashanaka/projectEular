@@ -1,0 +1,18 @@
+	  BigInteger n = BigInteger.valueOf(2);
+          n = n.pow(1000);
+          System.out.println(n);
+
+          String y = n.toString();
+          
+        
+          String[] num3 = y.split("");
+          
+          int finAnswer=0;
+
+          int i;
+          for(i=0;i<=num3.length-1;i++){
+              
+              finAnswer += Integer.parseInt(num3[i]);
+          }
+
+          System.out.println(finAnswer);
